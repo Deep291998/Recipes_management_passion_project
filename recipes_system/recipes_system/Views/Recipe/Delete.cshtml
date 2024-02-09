@@ -1,0 +1,15 @@
+﻿@model recipes_system.Models.RecipeDto
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<h2>Are you sure you want to delete this Receipe?</h2>
+<a href="/Receipe/List">Cancel</a>
+<h2>@Model.Title</h2>
+
+<form action="/receipe/Delete/@Model.instructionId" method="POST">
+    <input type="submit" value="Confirm Delete" />
+
+</form>
+

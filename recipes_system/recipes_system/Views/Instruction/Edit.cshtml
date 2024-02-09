@@ -1,0 +1,21 @@
+﻿@model recipes_system.Models.InstructionDto
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit instruction</h2>
+<form action="/instruction/Update/@Model.InstructionId" method="POST">
+    <div>
+        <label>Name:</label> <input value="@Model.Description" type="text" name="Title" />
+    </div>
+    <div>
+        <label>Categories:</label> <input value="@Model.InstructionId" type="text" name="Categories" />
+    </div>
+ 
+    <div>
+        <input type="submit" value="Update instruction" />
+    </div>
+</form>
+
+

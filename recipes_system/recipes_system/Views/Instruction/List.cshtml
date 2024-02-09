@@ -1,0 +1,30 @@
+﻿@model IEnumerable<recipes_system.Models.InstructionDto>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+<div class="container">
+    <h2>instruction List</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <td><a href="/instruction/New" class="btn btn-primary">ADD NEW Instruction</a></td>
+                <th>instruction Name</th>
+                <th></th> <!-- Empty column for Edit button -->
+                <th></th> <!-- Empty column for Delete button -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Instruction in Model)
+            {
+                <tr>
+                    <td><a href="/instruction/Details/@Instruction.InstructionId">@Instruction.Description</a></td>
+                    <td><a href="/instruction/Edit/@Instruction.InstructionId" class="btn btn-primary">Edit</a></td>
+                    <td><a href="/instruction/Delete/@Instruction.InstructionId" class="btn btn-danger">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "New";
+}
+
+
+<h2>Create instruction</h2>
+<form action="/instruction/Create" method="POST">
+    <div>
+        <label>Name:</label> <input type="text" name="Title" />
+    </div>
+    <div>
+        <label>Categories:</label> <input type="text" name="Categories" />
+    </div>
+    <div>
+        <label>Ingridents:</label> <input type="text" name="Ingridents" />
+    </div>
+    <div>
+        <input type="submit" value="Add instruction" />
+    </div>
+</form>
