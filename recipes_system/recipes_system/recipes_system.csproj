@@ -280,8 +280,8 @@
     <Content Include="Views\Recipe\Details.cshtml" />
     <Content Include="Views\Recipe\New.cshtml" />
     <Content Include="Views\Recipe\Edit.cshtml" />
-    <Content Include="Views\Recipe\Delete.cshtml" />
-    <Content Include="Views\Instruction\Delete.cshtml" />
+    <Content Include="Views\Recipe\DeleteConfirm.cshtml" />
+    <Content Include="Views\Instruction\DeleteConfirm.cshtml" />
     <Content Include="Views\Instruction\Details.cshtml" />
     <Content Include="Views\Instruction\Edit.cshtml" />
     <Content Include="Views\Instruction\List.cshtml" />

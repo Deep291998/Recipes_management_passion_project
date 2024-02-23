@@ -6,16 +6,18 @@
 
 <h2>Edit instruction</h2>
 <form action="/instruction/Update/@Model.InstructionId" method="POST">
-    <div>
-        <label>Name:</label> <input value="@Model.Description" type="text" name="Title" />
-    </div>
-    <div>
-        <label>Categories:</label> <input value="@Model.InstructionId" type="text" name="Categories" />
-    </div>
- 
-    <div>
-        <input type="submit" value="Update instruction" />
-    </div>
+    <div style="display:none;">
+        @* Pass through the animal ID *@
+        <input type="text" name="InstructionId" value="@Model.InstructionId" />
+        </div>
+        <div class="form-group m-3">
+            <label>Decsription:</label> <input value="@Model.Description" type="text" name="Description" />
+        </div>
+       
+
+        <div class="form-group m-3">
+            <input type="submit" value="Update insturction" class="btn btn-primary" />
+        </div>
 </form>
 
 

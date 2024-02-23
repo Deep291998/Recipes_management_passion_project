@@ -4,18 +4,22 @@
 }
 
 <h2>Edit recipe</h2>
-<form action="/recipe/Update/@Model.recipeId" method="POST">
-    <div>
-        <label>Name:</label> <input value="@Model.Title" type="text" name="Title" />
+<form action="/recipe/Update/@Model.RecipeId" method="POST">
+    <div style="display:none;">
+        @* Pass through the animal ID *@
+        <input type="text" name="RecipeId" value="@Model.RecipeId" />
     </div>
-    <div>
-        <label>Categories:</label> <input value="@Model.Categories" type="text" name="Categories" />
+    <div class="form-group m-3">
+        <label>Name:</label> <input class="form-control" value="@Model.Title" type="text" name="Title" />
     </div>
-    <div>
-        <label>Ingridents:</label> <input value="@Model.Ingridents" type="text" name="Ingridents" />
+    <div class="form-group m-3">
+        <label>Categories:</label> <input class="form-control" value="@Model.Categories" type="text" name="Categories" />
     </div>
-    <div>
-        <input type="submit" value="Update recipe" />
+    <div class="form-group m-3">
+        <label>Ingridents:</label> <input class="form-control" value="@Model.Ingridents" type="text" name="Ingridents" />
+    </div>
+    <div class="form-group m-3">
+        <input type="submit" value="Update recipe" class="btn btn-primary" />
     </div>
 </form>
 

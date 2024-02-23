@@ -1,0 +1,12 @@
+﻿@model recipes_system.Models.RecipeDto
+@{
+    ViewBag.Title = "Delete";
+}
+
+<a class="btn btn-primary float-end" href="/Recipe/List">Cancel</a>
+<h2>Are you sure you want to delete this Recipe- @Model.Title?</h2>
+
+<form action="/recipe/Delete/@Model.RecipeId" method="POST">
+    <input type="submit" value="Confirm Delete" class="btn btn-danger"/>
+</form>
+

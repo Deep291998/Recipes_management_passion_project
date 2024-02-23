@@ -128,25 +128,31 @@ namespace recipe_system.Controllers
             }
         }
 
-        // GET: Recipe/Delete/5 action method
-        public ActionResult Delete(int id)
+        // GET: Recipe/Delete/5
+        public ActionResult DeleteConfirm(int id)
         {
-            return View(); // Returns the Delete view for confirming deletion
+            string url = "FindRecipe/" + id;
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            RecipeDto selectedrecipe = response.Content.ReadAsAsync<RecipeDto>().Result;
+            return View(selectedrecipe);
         }
 
-        // POST: Recipe/Delete/5 action method
+        // POST: Recipe/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id)
         {
-            try
-            {
-                // TODO: Add delete logic here
+            string url = "DeleteRecipe/" + id;
+            HttpContent content = new StringContent("");
+            content.Headers.ContentType.MediaType = "application/json";
+            HttpResponseMessage response = client.PostAsync(url, content).Result;
 
-                return RedirectToAction("Index"); // Redirects to the Index action
-            }
-            catch
+            if (response.IsSuccessStatusCode)
             {
-                return View();
+                return RedirectToAction("List");
+            }
+            else
+            {
+                return RedirectToAction("Error");
             }
         }
     }

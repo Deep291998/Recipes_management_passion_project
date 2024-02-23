@@ -4,14 +4,14 @@
     ViewBag.Title = "List";
 }
 
-<h2>List</h2>
+
 <div class="container">
-    <h2>recipe List</h2>
+    <a href="/recipe/New" class="btn btn-primary">Add New Recipe</a>
+    <h1>Recipe List</h1>
     <table class="table table-striped">
         <thead>
             <tr>
-                <td><a href="/recipe/New" class="btn btn-primary">ADD NEW RECEIPE</a></td>
-                <th>recipe Name</th>
+                <th>Recipe Name</th>
                 <th></th> <!-- Empty column for Edit button -->
                 <th></th> <!-- Empty column for Delete button -->
             </tr>
@@ -20,9 +20,9 @@
             @foreach (var receip in Model)
             {
                 <tr>
-                    <td><a href="/recipe/Details/@receip.recipeId">@receip.Title</a></td>
-                    <td><a href="/recipe/Edit/@receip.recipeId" class="btn btn-primary">Edit</a></td>
-                    <td><a href="/recipe/Delete/@receip.recipeId" class="btn btn-danger">Delete</a></td>
+                    <td><a href="/recipe/Details/@receip.RecipeId">@receip.Title</a></td>
+                    <td><a href="/recipe/Edit/@receip.RecipeId" class="btn btn-primary">Edit</a></td>
+                    <td><a href="/recipe/DeleteConfirm/@receip.RecipeId" class="btn btn-danger">Delete</a></td>
                 </tr>
             }
         </tbody>
