@@ -9,15 +9,21 @@
     <div style="display:none;">
         @* Pass through the animal ID *@
         <input type="text" name="InstructionId" value="@Model.InstructionId" />
-        </div>
-        <div class="form-group m-3">
-            <label>Decsription:</label> <input value="@Model.Description" type="text" name="Description" />
-        </div>
-       
+    </div>
+    <div class="form-group m-3">
+        <label>Instruction Name:</label> <input value="@Model.InstructionName" class="form-control" type="text" name="InstructionName" />
+    </div>
+    <div class="form-group m-3">
+        <label>Decsription:</label> <input value="@Model.Description" type="text" class="form-control" name="Description" />
+    </div>
+    <div class="form-group m-3">
+        <label>Recipe Id:</label> <input class="form-control" value="@Model.RecipeId" type="text" name="RecipeId" />
+    </div>
 
-        <div class="form-group m-3">
-            <input type="submit" value="Update insturction" class="btn btn-primary" />
-        </div>
+
+    <div class="form-group m-3">
+        <input type="submit" value="Update insturction" class="btn btn-primary" />
+    </div>
 </form>
 
 

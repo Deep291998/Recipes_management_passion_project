@@ -12,6 +12,7 @@ namespace recipes_system.Models
 
         [Key]
         public int InstructionId { get; set; }
+        public string InstructionName { get; set; }
 
         public string Description { get; set; }
 
@@ -23,7 +24,9 @@ namespace recipes_system.Models
     public class InstructionDto
     {
         public int InstructionId { get; set; }
+        public string InstructionName { get; set; }
 
         public string Description { get; set; }
+        public int RecipeId { get; set; }
     }
 }

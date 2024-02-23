@@ -3,75 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|c:\\users\\n01605386\\source\\repos\\recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_recipes_system_20240208053238/True/SqlTable/dbo.Instructions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\instructiondatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\controllers\\instructiondatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|c:\\users\\n01605386\\source\\repos\\recipes_management_passion_project\\recipes_system\\recipes_system\\models\\viewmodel\\detailsrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\models\\viewmodel\\detailsrecipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\models\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\models\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\instructiondatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\controllers\\instructiondatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\models\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\models\\instruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\instructioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\controllers\\instructioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\recipedatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\controllers\\recipedatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|c:\\users\\n01605386\\source\\repos\\recipes_management_passion_project\\recipes_system\\recipes_system\\migrations\\202402231900311_changedcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\migrations\\202402231900311_changedcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|c:\\users\\n01605386\\source\\repos\\recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\instruction\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\instruction\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|c:\\users\\n01605386\\source\\repos\\recipes_management_passion_project\\recipes_system\\recipes_system\\migrations\\202402231856263_addedcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\migrations\\202402231856263_addedcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\deleteconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\instructioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\controllers\\instructioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\recipe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\recipe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|solutionrelative:recipes_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B2C6AAA-6BFB-4745-99E2-7470F721F92D}|recipes_system\\recipes_system.csproj|C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,97 +102,206 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InstructionDataController.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\InstructionDataController.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Controllers\\InstructionDataController.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\InstructionDataController.cs",
+              "RelativeToolTip": "recipes_system\\Controllers\\InstructionDataController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAcwKgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:03:59.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Instructions [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_recipes_system_20240208053238/True/SqlTable/dbo.Instructions.sql",
-              "ToolTip": "dbo.Instructions [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-02-23T18:32:26.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 7,
               "Title": "InstructionController.cs",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\InstructionController.cs",
               "RelativeDocumentMoniker": "recipes_system\\Controllers\\InstructionController.cs",
               "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\InstructionController.cs",
               "RelativeToolTip": "recipes_system\\Controllers\\InstructionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJYAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwIwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:03:59.433Z"
+              "WhenOpened": "2024-02-23T17:03:59.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "RecipeDataController.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeDataController.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Controllers\\RecipeDataController.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeDataController.cs",
+              "RelativeToolTip": "recipes_system\\Controllers\\RecipeDataController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:03:59.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\Edit.cshtml",
+              "RelativeDocumentMoniker": "recipes_system\\Views\\Instruction\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\Edit.cshtml",
+              "RelativeToolTip": "recipes_system\\Views\\Instruction\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T18:14:07.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\Details.cshtml",
               "RelativeDocumentMoniker": "recipes_system\\Views\\Instruction\\Details.cshtml",
               "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\Details.cshtml",
               "RelativeToolTip": "recipes_system\\Views\\Instruction\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T17:03:59.435Z"
+              "WhenOpened": "2024-02-23T17:03:59.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "recipes_system\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAADwvzwAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:03:59.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\Details.cshtml",
+              "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\Details.cshtml",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\Details.cshtml",
+              "RelativeToolTip": "recipes_system\\Views\\Recipe\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T17:03:59.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Instruction.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Instruction.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Models\\Instruction.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Instruction.cs",
+              "RelativeToolTip": "recipes_system\\Models\\Instruction.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:03:59.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Models\\Recipe.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Recipe.cs",
+              "RelativeToolTip": "recipes_system\\Models\\Recipe.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:03:59.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailsRecipe.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\ViewModel\\DetailsRecipe.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Models\\ViewModel\\DetailsRecipe.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\ViewModel\\DetailsRecipe.cs",
+              "RelativeToolTip": "recipes_system\\Models\\ViewModel\\DetailsRecipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T19:13:44.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "202402231900311_changedcolumn.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Migrations\\202402231900311_changedcolumn.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Migrations\\202402231900311_changedcolumn.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Migrations\\202402231900311_changedcolumn.cs",
+              "RelativeToolTip": "recipes_system\\Migrations\\202402231900311_changedcolumn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T19:00:35.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\List.cshtml",
+              "RelativeDocumentMoniker": "recipes_system\\Views\\Instruction\\List.cshtml",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\List.cshtml",
+              "RelativeToolTip": "recipes_system\\Views\\Instruction\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T18:21:36.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "New.cshtml",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\New.cshtml",
               "RelativeDocumentMoniker": "recipes_system\\Views\\Instruction\\New.cshtml",
               "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\New.cshtml",
               "RelativeToolTip": "recipes_system\\Views\\Instruction\\New.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-23T17:03:59.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "DeleteConfirm.cshtml",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\DeleteConfirm.cshtml",
               "RelativeDocumentMoniker": "recipes_system\\Views\\Instruction\\DeleteConfirm.cshtml",
               "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\DeleteConfirm.cshtml",
               "RelativeToolTip": "recipes_system\\Views\\Instruction\\DeleteConfirm.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T17:03:59.437Z"
+              "WhenOpened": "2024-02-23T17:03:59.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\List.cshtml",
-              "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\List.cshtml",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\List.cshtml",
-              "RelativeToolTip": "recipes_system\\Views\\Recipe\\List.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T17:03:59.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Recipe.cs",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Recipe.cs",
-              "RelativeDocumentMoniker": "recipes_system\\Models\\Recipe.cs",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Recipe.cs",
-              "RelativeToolTip": "recipes_system\\Models\\Recipe.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "DocumentIndex": 14,
+              "Title": "202402231856263_addedcolumn.cs",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Migrations\\202402231856263_addedcolumn.cs",
+              "RelativeDocumentMoniker": "recipes_system\\Migrations\\202402231856263_addedcolumn.cs",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Migrations\\202402231856263_addedcolumn.cs",
+              "RelativeToolTip": "recipes_system\\Migrations\\202402231856263_addedcolumn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:03:59.442Z"
+              "WhenOpened": "2024-02-23T18:56:32.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\Edit.cshtml",
               "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\Edit.cshtml",
@@ -195,43 +313,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InstructionDataController.cs",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\InstructionDataController.cs",
-              "RelativeDocumentMoniker": "recipes_system\\Controllers\\InstructionDataController.cs",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\InstructionDataController.cs",
-              "RelativeToolTip": "recipes_system\\Controllers\\InstructionDataController.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAUwG4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:03:59.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RecipeController.cs",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeController.cs",
-              "RelativeDocumentMoniker": "recipes_system\\Controllers\\RecipeController.cs",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeController.cs",
-              "RelativeToolTip": "recipes_system\\Controllers\\RecipeController.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAswHoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:03:59.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\List.cshtml",
-              "RelativeDocumentMoniker": "recipes_system\\Views\\Instruction\\List.cshtml",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\List.cshtml",
-              "RelativeToolTip": "recipes_system\\Views\\Instruction\\List.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAABqAAAA",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\List.cshtml",
+              "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\List.cshtml",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\List.cshtml",
+              "RelativeToolTip": "recipes_system\\Views\\Recipe\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T18:21:36.461Z"
+              "WhenOpened": "2024-02-23T17:03:59.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
+              "Title": "DeleteConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
+              "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
+              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
+              "RelativeToolTip": "recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T17:03:59.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "New.cshtml",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\New.cshtml",
               "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\New.cshtml",
@@ -243,43 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\Edit.cshtml",
-              "RelativeDocumentMoniker": "recipes_system\\Views\\Instruction\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Instruction\\Edit.cshtml",
-              "RelativeToolTip": "recipes_system\\Views\\Instruction\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T18:14:07.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Instruction.cs",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Instruction.cs",
-              "RelativeDocumentMoniker": "recipes_system\\Models\\Instruction.cs",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Models\\Instruction.cs",
-              "RelativeToolTip": "recipes_system\\Models\\Instruction.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAwAwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:03:59.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RecipeDataController.cs",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeDataController.cs",
-              "RelativeDocumentMoniker": "recipes_system\\Controllers\\RecipeDataController.cs",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\RecipeDataController.cs",
-              "RelativeToolTip": "recipes_system\\Controllers\\RecipeDataController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowEgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:03:59.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "recipes_system\\Views\\Shared\\_Layout.cshtml",
@@ -291,31 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\Details.cshtml",
-              "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\Details.cshtml",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\Details.cshtml",
-              "RelativeToolTip": "recipes_system\\Views\\Recipe\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T17:03:59.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DeleteConfirm.cshtml",
-              "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
-              "RelativeDocumentMoniker": "recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
-              "ToolTip": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
-              "RelativeToolTip": "recipes_system\\Views\\Recipe\\DeleteConfirm.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T17:03:59.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ManageController.cs",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\ManageController.cs",
               "RelativeDocumentMoniker": "recipes_system\\Controllers\\ManageController.cs",
@@ -327,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "recipes_system\\Controllers\\HomeController.cs",
@@ -339,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\n01605386\\source\\repos\\Recipes_management_passion_project\\recipes_system\\recipes_system\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "recipes_system\\Controllers\\AccountController.cs",

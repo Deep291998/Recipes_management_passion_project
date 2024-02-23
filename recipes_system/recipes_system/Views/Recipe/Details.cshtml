@@ -1,4 +1,4 @@
-﻿@model recipes_system.Models.RecipeDto
+﻿@model recipes_system.Models.ViewModel.DetailsRecipe
 
 @{
     ViewBag.Title = "Details";
@@ -6,7 +6,14 @@
 
 
 <a class="btn btn-primary" href="/recipe/List">Go back to list</a>
-<h2>@Model.Title</h2>
-<div>Ingridents: @Model.Ingridents</div>
-<div>Categories: @Model.Categories</div>
+<h2>@Model.SelectedRecipe.Title</h2>
+<div>Ingridents: @Model.SelectedRecipe.Ingridents</div>
+<div>Categories: @Model.SelectedRecipe.Categories</div>
 
+<div>
+    <h1>Instruction</h1>
+   @foreach (var data in Model.RecipeInstructions)
+            {
+                <div>@data.InstructionName</div>
+            }
+</div>

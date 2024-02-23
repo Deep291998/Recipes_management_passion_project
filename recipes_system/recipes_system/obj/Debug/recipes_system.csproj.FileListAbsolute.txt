@@ -230,3 +230,5 @@ C:\Users\n01605386\Source\Repos\Recipes_management_passion_project\recipes_syste
 C:\Users\n01605386\Source\Repos\Recipes_management_passion_project\recipes_system\recipes_system\obj\Debug\recipes_.7F4CDAA8.Up2Date
 C:\Users\n01605386\Source\Repos\Recipes_management_passion_project\recipes_system\recipes_system\obj\Debug\recipes_system.dll
 C:\Users\n01605386\Source\Repos\Recipes_management_passion_project\recipes_system\recipes_system\obj\Debug\recipes_system.pdb
+C:\Users\n01605386\source\repos\Recipes_management_passion_project\recipes_system\recipes_system\obj\Debug\recipes_system.Migrations.addedcolumn.resources
+C:\Users\n01605386\source\repos\Recipes_management_passion_project\recipes_system\recipes_system\obj\Debug\recipes_system.Migrations.changedcolumn.resources

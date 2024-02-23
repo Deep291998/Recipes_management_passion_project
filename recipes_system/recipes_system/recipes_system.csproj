@@ -196,12 +196,21 @@
     <Compile Include="Migrations\202402082238060_updatefk.designer.cs">
       <DependentUpon>202402082238060_updatefk.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202402231856263_addedcolumn.cs" />
+    <Compile Include="Migrations\202402231856263_addedcolumn.Designer.cs">
+      <DependentUpon>202402231856263_addedcolumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402231900311_changedcolumn.cs" />
+    <Compile Include="Migrations\202402231900311_changedcolumn.Designer.cs">
+      <DependentUpon>202402231900311_changedcolumn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Instruction.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Recipe.cs" />
+    <Compile Include="Models\ViewModel\DetailsRecipe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -320,6 +329,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202402082238060_updatefk.resx">
       <DependentUpon>202402082238060_updatefk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402231856263_addedcolumn.resx">
+      <DependentUpon>202402231856263_addedcolumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402231900311_changedcolumn.resx">
+      <DependentUpon>202402231900311_changedcolumn.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

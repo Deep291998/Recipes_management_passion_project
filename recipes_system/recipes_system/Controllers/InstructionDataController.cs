@@ -30,6 +30,8 @@ namespace Instructions_system.Controllers
             {
                 InstructionId = a.InstructionId,
                 Description = a.Description,
+                RecipeId = a.RecipeId,
+                InstructionName = a.InstructionName,
             }));
 
             return InstructionDtos; // Returns the list of InstructionDto objects
@@ -48,6 +50,8 @@ namespace Instructions_system.Controllers
 
                 InstructionId = Instruction.InstructionId,
                 Description = Instruction.Description,
+                RecipeId = Instruction.RecipeId,
+                InstructionName = Instruction.InstructionName,
             };
 
             if (Instruction == null)
@@ -131,6 +135,39 @@ namespace Instructions_system.Controllers
             return Ok(); // Returns 200 OK if the deletion is successful
         }
 
+        /// <summary>
+        /// Gathers information about animals related to a particular keeper
+        /// </summary>
+        /// <returns>
+        /// HEADER: 200 (OK)
+        /// CONTENT: all animals in the database, including their associated species that match to a particular keeper id
+        /// </returns>
+        /// <param name="id">Instruction ID.</param>
+        /// <example>
+        /// GET: api/AnimalData/ListInstructionsForRecipe/1
+        /// </example>
+        [HttpGet]
+        [ResponseType(typeof(InstructionDto))]
+        [Route("api/InstructionData/ListInstructionsForRecipe/{id}")]
+        public IHttpActionResult ListInstructionsForRecipe(int id)
+        {
+
+            //all animals that have keepers which match with our ID
+           
+            List<Instruction> instructions = new List<Instruction>();
+            instructions = db.Instructions.Where(a=>a.RecipeId== id).ToList();
+            List<InstructionDto> InstructionDtos = new List<InstructionDto>();
+
+            instructions.ForEach(a => InstructionDtos.Add(new InstructionDto()
+            {
+               RecipeId = a.RecipeId,
+               Description = a.Description, 
+               InstructionName = a.InstructionName, 
+               InstructionId = a.InstructionId
+            }));
+
+            return Ok(InstructionDtos);
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)

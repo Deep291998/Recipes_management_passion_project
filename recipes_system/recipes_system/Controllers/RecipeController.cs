@@ -1,5 +1,6 @@
 ﻿// Importing necessary namespaces
 using recipes_system.Models;
+using recipes_system.Models.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -29,14 +30,14 @@ namespace recipe_system.Controllers
         static RecipeController()
         {
             client = new HttpClient(); // Instantiates the HttpClient
-            client.BaseAddress = new Uri("https://localhost:44354/api/recipedata/"); // Sets the base address for API requests
+            client.BaseAddress = new Uri("https://localhost:44354/api/"); // Sets the base address for API requests
         }
 
         // GET: Recipe/List action method
         public ActionResult List()
         {
             // Retrieves a list of recipes from the API
-            string url = "ListRecipes"; // API endpoint for listing recipes
+            string url = "recipedata/ListRecipes"; // API endpoint for listing recipes
             HttpResponseMessage response = client.GetAsync(url).Result; // Sends a GET request to the API
 
             IEnumerable<RecipeDto> recipe = response.Content.ReadAsAsync<IEnumerable<RecipeDto>>().Result; // Deserializes the response JSON into a list of RecipeDto objects
@@ -48,12 +49,21 @@ namespace recipe_system.Controllers
         public ActionResult Details(int id)
         {
             // Retrieves details of a specific recipe from the API
-            string url = "findrecipe/" + id; // API endpoint for finding a recipe by ID
+            DetailsRecipe ViewModel = new DetailsRecipe();
+            string url = "recipedata/findrecipe/" + id; // API endpoint for finding a recipe by ID
             HttpResponseMessage response = client.GetAsync(url).Result; // Sends a GET request to the API
 
             RecipeDto selectedrecipe = response.Content.ReadAsAsync<RecipeDto>().Result; // Deserializes the response JSON into a RecipeDto object
 
-            return View(selectedrecipe); // Returns the Details view with the selected recipe
+            url = "InstructionData/ListInstructionsForRecipe/" + id; // API endpoint for finding a recipe by ID
+            response = client.GetAsync(url).Result; // Sends a GET request to the API
+
+            IEnumerable<InstructionDto> instruction = response.Content.ReadAsAsync<IEnumerable<InstructionDto>>().Result;
+
+            ViewModel.SelectedRecipe =  selectedrecipe;
+            ViewModel.RecipeInstructions = instruction;
+
+            return View(ViewModel); // Returns the Details view with the selected recipe
         }
 
         // GET: Recipe/Error action method
@@ -73,7 +83,7 @@ namespace recipe_system.Controllers
         public ActionResult Create(Recipe recipe)
         {
             // Adds a new recipe into the system using the API
-            string url = "addrecipe"; // API endpoint for adding a recipe
+            string url = "recipedata/addrecipe"; // API endpoint for adding a recipe
 
             string jsonpayload = jss.Serialize(recipe); // Serializes the recipe object into JSON
 
@@ -96,7 +106,7 @@ namespace recipe_system.Controllers
         public ActionResult Edit(int id)
         {
             // Retrieves details of a specific recipe for editing
-            string url = "findrecipe/" + id; // API endpoint for finding a recipe by ID
+            string url = "recipedata/findrecipe/" + id; // API endpoint for finding a recipe by ID
             HttpResponseMessage response = client.GetAsync(url).Result; // Sends a GET request to the API
 
             RecipeDto selectedrecipe = response.Content.ReadAsAsync<RecipeDto>().Result; // Deserializes the response JSON into a RecipeDto object
@@ -111,7 +121,7 @@ namespace recipe_system.Controllers
             try
             {
                 // Updates an existing recipe in the system using the API
-                string url = "UpdateRecipe/" + id; // API endpoint for updating a recipe by ID
+                string url = "recipedata/UpdateRecipe/" + id; // API endpoint for updating a recipe by ID
 
                 string jsonpayload = jss.Serialize(recipe); // Serializes the recipe object into JSON
 
@@ -131,7 +141,7 @@ namespace recipe_system.Controllers
         // GET: Recipe/Delete/5
         public ActionResult DeleteConfirm(int id)
         {
-            string url = "FindRecipe/" + id;
+            string url = "recipedata/FindRecipe/" + id;
             HttpResponseMessage response = client.GetAsync(url).Result;
             RecipeDto selectedrecipe = response.Content.ReadAsAsync<RecipeDto>().Result;
             return View(selectedrecipe);
@@ -141,7 +151,7 @@ namespace recipe_system.Controllers
         [HttpPost]
         public ActionResult Delete(int id)
         {
-            string url = "DeleteRecipe/" + id;
+            string url = "recipedata/DeleteRecipe/" + id;
             HttpContent content = new StringContent("");
             content.Headers.ContentType.MediaType = "application/json";
             HttpResponseMessage response = client.PostAsync(url, content).Result;
